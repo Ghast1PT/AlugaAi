@@ -10,4 +10,5 @@ urlpatterns = [
     path('logar_usuario/', logar_usuario, name='logar_usuario'),
     path('dashboard/', dashboard, name='dashboard'),
     path('deslogar_usuario/', deslogar_usuario, name='deslogar_usuario'),
+    path('about/', about, name='about'),
 ]
